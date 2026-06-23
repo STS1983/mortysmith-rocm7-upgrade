@@ -68,6 +68,12 @@ HSA_OVERRIDE_GFX_VERSION=10.3.0 python3 -c "import torch; print(torch.cuda.is_av
 3. **ROCm 7.0 fixes `amdgpu_get_auth` errors** that prevented GPU access in 6.4
 4. **PCIe lanes matter less than expected** — Inference is compute-bound, not bandwidth-bound
 
+## Acknowledgments
+
+- **[alfinauzikri/ROCm-RX6600XT](https://github.com/alfinauzikri/ROCm-RX6600XT)** — Original ROCm installation guide for RX 6600 XT that served as the starting point for our setup. Their wrapper scripts and step-by-step guide for ROCm + TensorFlow/PyTorch on RX 6600 XT were invaluable.
+- **EvilStief** — For the key insight: "probier erst das" (try the simple thing first)
+- **AMD / ROCm Team** — For gfx1032 support in ROCm 7.0
+
 ## Star History
 
 If this helped you get AMD GPUs working, ⭐ star the repo!

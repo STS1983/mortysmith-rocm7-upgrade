@@ -214,8 +214,9 @@ HSA_OVERRIDE_GFX_VERSION=10.3.0 python3 -c "import torch; print(torch.cuda.is_av
 
 ## Acknowledgments
 
+- **[alfinauzikri/ROCm-RX6600XT](https://github.com/alfinauzikri/ROCm-RX6600XT)** — Original ROCm installation guide for RX 6600 XT that served as the starting point for our setup. Their wrapper scripts and step-by-step guide for ROCm + TensorFlow/PyTorch on RX 6600 XT (Ubuntu 22.04, ROCm 5.5) were the foundation we built upon.
 - **EvilStief** — For the key insight: "probier erst das" (try the simple thing first)
-- **ROCm Team** — For gfx1032 support in ROCm 7.0
+- **AMD / ROCm Team** — For gfx1032 support in ROCm 7.0
 - **AMD** — For making RX 6600 XT GPUs that are great for LLM inference when properly configured
 
 ---
